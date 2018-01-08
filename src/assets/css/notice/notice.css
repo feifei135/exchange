@@ -1,0 +1,55 @@
+.c_notice .c_notice_lt{
+    width: 200px;
+    height: 1000px;
+    float: left;
+}
+.c_notice .c_notice_rt{
+    width: 930px;
+    height: 1000px;
+    float: right;
+    padding: 30px;
+    background-color: #fff;
+}
+.c_notice .notice_title{
+    color: #006c05;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.c_notice .notice_list {
+    padding: 20px 0;
+}
+.c_notice .notice_list ul li{
+    height: 30px;
+    line-height: 30px;
+}
+.c_notice .notice_list ul li a{
+    display: block;
+    width: 80%;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.c_notice .notice_list ul li a:hover{
+    color: #006c05;
+}
+.c_notice .notice_list ul li i{
+    float: right;
+    color: #888;
+}
+.c_notice .notice_main_title{
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+}
+.c_notice .notice_main_date{
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.c_notice .notice_main_cont p{
+    padding: 10px 0;
+}

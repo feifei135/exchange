@@ -1,0 +1,52 @@
+.lty_order_box{
+    width: 900px;
+    margin: 35px auto;
+    padding: 0 25px;
+    background-color: #fff;
+}
+.lty_order_box .box_top{
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.lty_order_box .box_top:after{
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    display: block;
+    width: 3px;
+    height: 45px;
+    content: "";
+    background-color: #ff7200;
+}
+.lty_order_box .box_top strong{
+    font-weight: bold;
+}
+.lty_order_box .box_bom{
+    position: relative;
+    color: #555;
+    padding: 25px 0;
+}
+.lty_order_box .box_bom .money{
+    color: #999;
+    font-size: 19px;
+}
+.lty_order_box .box_bom .money i{
+    color: #ff7200;
+    font-size: 24px;
+}
+.lty_order_box .box_bom .fix{
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+}
+.lty_order_box .box_bom .btn_red{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background-color: #f02d2d;
+    border-radius: 3px;
+}

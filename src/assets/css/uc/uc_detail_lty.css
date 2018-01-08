@@ -1,0 +1,21 @@
+.dtl_item:last-child{
+    padding: 30px 0;
+    margin-top: 30px;
+    border-top: 1px solid #e0e0e0;
+}
+.dtl_item dt{
+    margin-bottom: 30px;
+}
+.dtl_item dd span{
+    display: block;
+    width: 50%;
+    float: left;
+    color: #555;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.dtl_item dd span.full{
+    width: 100% !important;
+}

@@ -1,0 +1,22 @@
+/* 当前位置 */
+.position_bar{
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow:0 1px 10px 0 rgba(0,0,0,0.1);
+	position: relative;
+	z-index: 999;
+}
+.position_bar .pos_lt,
+.position_bar .pos_rt{
+    width: 50%;
+    float: left;
+}
+.position_bar .pos_lt a{
+    color: #333;
+}
+.position_bar .pos_lt a:hover{
+    color: #0096ff;
+}

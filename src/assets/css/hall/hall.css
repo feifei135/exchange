@@ -1,0 +1,106 @@
+.c_hall .cpt_box .cpt_box_title i{
+    background: url("../../images/hall_icons.png") !important;
+}
+/* hall */
+.c_hall .cpt_box i.icon_jyrl{
+    background-position: -402px -39px !important;
+}
+.c_hall .cpt_box i.icon_pzhq{
+    background-position: -437px -40px !important;
+}
+.c_hall .cpt_box i.icon_jptg{
+    background-position: -473px -40px !important;
+}
+.c_hall .cpt_box i.icon_pztg{
+    background-position: -513px -38px !important;
+}
+.c_hall .cpt_box i.icon_qgxx{
+    background-position: -510px -88px !important;
+}
+/* 布局容器 */
+.c_hall .lty_container{
+    padding-top: 15px;
+    background-color: #ebebeb;
+}
+.c_hall .lty_container .lty_ctr_lt{
+    width: 920px;
+    float: left;
+}
+.c_hall .lty_container .lty_ctr_rt{
+    width: 200px;
+    float: right;
+}
+/* 布局1 */
+.c_hall .lty_container .lty_01{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+/* 布局2 */
+.c_hall .lty_02 {
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+/* 大厅右侧 */
+.c_hall .cpt_box {
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.c_hall .lty_jptg .cpt_box_main{
+    padding: 5px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.c_hall .lty_jptg .cpt_list {
+    height: 170px;
+    overflow: hidden;
+}
+.c_hall .lty_jptg .cpt_list li{
+    border-bottom: none;
+}
+.c_hall .lty_jptg .cpt_list a{
+    max-width: 150px;
+}
+.c_hall .lty_pptg .cpt_box_main {
+    padding:0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.c_hall .lty_pptg .cpt_box_main>div{
+    margin: 15px 0;
+}
+.c_hall .lty_pptg .cpt_box_main a{
+    display: block;
+    height: 90px;
+}
+.c_hall .lty_pptg .cpt_box_main a img{
+    height: 100%;
+}
+.c_hall .lty_pptg .cpt_box_main>div>p{
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.c_hall .lty_jyrl .cpt_box_main{
+    height: 235px;
+}
+.c_hall .lty_jyrl .ivu-select-dropdown{
+    top: 370px !important;
+    box-shadow: none !important;
+}
+.c_hall .ivu-select-dropdown .ivu-date-picker-cells{
+    width: 177px !important;
+}
+.c_hall .ivu-select-dropdown .ivu-date-picker-cells .ivu-date-picker-cells-header span{
+    width: 21px !important;
+    height: 21px !important;
+}
+.c_hall .ivu-select-dropdown .ivu-date-picker-cells span.ivu-date-picker-cells-cell{
+    width: 25px;
+    height: 25px;
+}

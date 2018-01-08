@@ -1,0 +1,37 @@
+/*  reset(2017-04-21)
+==================================================*/
+@charset "utf-8";body{color:#333;font-size:14px;font-family:"Microsoft YaHei"}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0 none;display:block}
+address,caption,cite,code,dfn,em,i,u,b,strong,th,var{font-style:normal;font-weight:normal}
+input,textarea{outline:0 none;color:#333;font-size:14px;font-family:"Microsoft YaHei"}
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset !important;  }
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+a{color:#333;text-decoration:none}
+/*a:hover{color:inherit;}*/
+img{border:0 none;max-width:100%}
+i,em{font-style:normal}
+.clearfix:after{height:0;content:" ";display:block;overflow:hidden;clear:both}
+.clearfix{zoom:1}
+/*  容器组件
+==================================================*/
+.lty_container{background-color: #ebebeb;}
+.g_wrap{width: 1130px;margin: 0 auto; overflow: hidden; }
+.g_ellipsis{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.g_btn{display: inline-block;padding: 0 20px;color: #fff;border: none;outline: none;cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;}
+.clr_red{color: #ff0000}
+.clr_blue{color: #3f8fd8}
+.help.is-danger{color: #f02d2d;font-size: 12px;}
+.g-core-image-upload-btn,
+.g-core-image-upload-form{ float: left;  width: 91px !important;height: 91px !important;}
+.c_modal_success{position: fixed;top: 0;left:0;z-index:10000;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5)}
+.c_modal_success .mdl_succ_cont{position: absolute;top: 50%;left:50%;z-index: 1001;min-width: 240px;height: 180px;line-height: 180px;text-align: center;font-size: 18px;margin: -120px 0 0 -90px;padding: 0 20px;border-radius: 5px;background-color: #fff;}
+.daterange > span{  display: block; float: left;  line-height: 25px;}
+.daterange .ivu-date-picker{float: left;}
+.daterange .ivu-date-picker input{ width: 200px;}

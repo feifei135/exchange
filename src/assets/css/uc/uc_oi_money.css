@@ -1,0 +1,30 @@
+/* 表单 */
+.oi_form .item{
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.oi_form .item label{
+    display: block;
+    width: 100px;
+    float: left;
+    color: #666;
+}
+.oi_form .item input,
+.oi_form .item select {
+    width: 160px;
+    height: 25px;
+}
+.oi_form .btn {
+    margin-top: 30px;
+}
+.oi_form .btn button{
+    display: inline-block;
+    padding: 3px 20px;
+    margin-left: 100px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f02d2d;
+}

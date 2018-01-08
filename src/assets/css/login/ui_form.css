@@ -1,0 +1,147 @@
+.lty_container{
+    /*padding: 120px 0 220px;*/
+}
+.lty_box{
+    width: 410px;
+    margin: 0 auto;
+    padding: 30px 60px;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.lty_box .box_top{
+    color: #333;
+    font-size: 20px;
+}
+.lty_box .server_error{
+    height: 40px;
+    line-height: 40px;
+    color: #ff0000;
+}
+.lty_box .box_top span{
+    font-size: 14px;
+    float: right;
+}
+.lty_box .box_top a{
+    color: #3499db;
+}
+.lty_box .box_bom{
+    text-align: right;
+}
+.lty_box .box_bom a{
+    color: #40709f;
+}
+#login .form_btn{
+    margin: 25px 0 20px;
+}
+#regist .form_btn{
+    margin: 10px 0 20px;
+}
+/*  form_item
+====================================================*/
+.form_item,
+.form_code{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #e9ecee;
+}
+.form_err {
+    padding: 5px 0 25px;
+    color: #ff0000;
+    font-size: 12px;
+}
+.form_err span{
+    float: left;
+    letter-spacing: 0;
+}
+.form_item .icon,
+.form_code .icon{
+    width: 30px;
+    height: 100%;
+    float: left;
+    background: url("../../images/hall_icons.png") no-repeat;
+}
+.form_item input{
+    padding-left: 10px;
+    border: none;
+}
+.form_btn button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ff7200;
+}
+/* 验证码 */
+.form_code {
+    border-bottom: none;
+}
+.form_code .ipt_code{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form_code .ipt_code input{
+    width: 140px;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    border: none;
+    padding-left: 10px;
+}
+.form_code .btn_send{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    background-color: #3aa9f2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.form_code .btn_send.dis {
+    cursor: inherit;
+    background-color: #ccc;
+}
+/* 协议 */
+.form_bargin .bargin{
+    vertical-align: middle;
+}
+.form_bargin a{
+    color: #40709f;
+}
+/* 图标 */
+div.icon.icon_tel{
+    background-position: -126px -175px;
+}
+div.icon.icon_pwd{
+    background-position: -181px -178px;
+}
+div.icon.icon_code{
+    background-position: -235px -175px;
+}

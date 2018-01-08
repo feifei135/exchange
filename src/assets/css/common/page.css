@@ -1,0 +1,17 @@
+.c_page {
+    padding: 30px 0;
+    text-align: center;
+}
+.c_page li{
+    display: inline-block !important;
+    float: none;
+}
+.c_page li:hover a{
+    color: #019b07;
+}
+.c_page li.ivu-page-item-active{
+    background-color: #019b07;
+}
+.c_page li.ivu-page-item-active a{
+    color: #fff;
+}

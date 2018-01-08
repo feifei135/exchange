@@ -1,0 +1,28 @@
+.c_about_us .about_us_lt{
+    width: 200px;
+    min-height: 1000px;
+    float: left;
+}
+.c_about_us .about_us_rt{
+    width: 920px;
+    min-height: 1000px;
+    float: right;
+    padding: 40px 80px;
+    background-color: #fff;
+}
+.c_about_us .title{
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.lty_dl dt{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.lty_dl dd{
+    padding: 10px 0;
+}

@@ -1,0 +1,120 @@
+.lty_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.lty_modal .lty_modal_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100001;
+    width: 700px;
+    height: 640px;
+    margin: -310px -350px;
+    padding: 25px 40px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.lty_modal .lty_mdl_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url("../../../assets/images/hall_icons.png") no-repeat;
+    background-position: -110px -38px;
+}
+.lty_modal .lty_modal_main .yj_line{
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.lty_modal .lty_mdl_yj .yj_id {
+    color: #666;
+}
+.lty_modal .lty_mdl_yj .yj_info {
+    padding: 30px 0;
+}
+.lty_modal .yj_info .info_tit{
+    color: #333;
+    font-weight: 600;
+}
+.lty_modal .yj_info .info_lty01 li{
+    width: 50%;
+    float: left;
+    color: #666;
+    margin-top: 10px;
+}
+/* form */
+.lty_modal .yj_form{
+    margin-top: 20px;
+}
+.lty_modal .yj_form .fm_item{
+    width: 50%;
+    float: left;
+}
+.lty_modal .yj_form .fm_item.full{
+    width: 100% !important;
+}
+.lty_modal .yj_form .fm_item p:after{
+    display: block;
+    content: "";
+    clear: both;
+    overflow: hidden;
+}
+.lty_modal .yj_form .fm_item.ttaa{
+    width: 100%;
+}
+.lty_modal .yj_form .fm_item p label{
+    width: 100px;
+    float: left;
+    color: #666;
+}
+.lty_modal .yj_form .fm_item p input{
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    border: 1px solid #d7dde4;
+}
+.lty_modal .yj_form .fm_item p textarea{
+    width: 460px;
+    height: 70px;
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+    border: 1px solid #d7dde4;
+}
+.lty_modal .yj_form .fm_item .fm_err{
+    height: 30px;
+    color: #f02d2d;
+    font-size: 12px;
+    text-indent: 100px;
+}
+.lty_modal .yj_form .fm_text{
+    color: #666;
+}
+.lty_modal .yj_form .fm_text span{
+    margin-right: 30px;
+}
+.lty_modal .yj_form .fm_btns {
+    margin-top: 30px;
+    float: left;
+}
+.lty_modal .yj_form .fm_btns span{
+    display: inline-block;
+    padding: 5px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.lty_modal .yj_form .fm_btns .ok{
+    margin: 0 20px 0 100px;
+    background-color: #f02d2d;
+}
+.lty_modal .yj_form .fm_btns .cancel{
+    background-color: #aeaeae;
+}

@@ -1,0 +1,68 @@
+.common_form {
+    padding-left: 60px;
+}
+.common_form .fm_item{
+    min-height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.common_form .fm_item.fm_vcode input{
+    width: 110px !important;
+}
+.common_form .fm_item.fm_vcode .btn_vcode{
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #3aa9f2;
+}
+.common_form .fm_err{
+    height: 25px;
+    color: #ff0000;
+    font-size: 12px;
+    text-indent: 90px;
+}
+.common_form .fm_err span{
+    float: left;
+}
+.common_form .fm_item > label{
+    display: block;
+    width: 90px;
+    float: left;
+}
+.common_form .fm_item > input,
+.common_form .fm_item > select{
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.common_form .fm_item textarea{
+    resize: none;
+    overflow-y: hidden;
+    border: 1px solid #ccc;
+}
+.common_form .fm_item .gender label{
+    margin-right: 20px;
+}
+.common_form .fm_item .gender input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.common_form .fm_item .tip,
+.common_form .fm_item .btn_vcode{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: #666;
+    font-size: 12px;
+}
+.common_form .fm_btn{
+    margin-top: 20px;
+}
+.common_form .fm_btn .g_btn{
+    padding: 5px 30px;
+    background-color: #f02d2d;
+}

@@ -1,0 +1,29 @@
+.uc_search{
+    height: 25px;
+    margin: 30px 0;
+}
+.uc_search .search_lt{
+    float: left;
+}
+.uc_search .search_lt .item{
+    float: left;
+    margin-right: 40px;
+}
+.uc_search .search_lt input,
+.uc_search .search_lt select{
+    width: 170px;
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+}
+.uc_search .search_rt{
+    float: right;
+}
+.uc_search .search_rt .g_btn{
+    height: 25px;
+    line-height: 25px;
+    margin-left: 20px;
+    background-color: #ff7200;
+}

@@ -1,0 +1,33 @@
+/* 2.列表 */
+.cpt_list ul li {
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+    border-bottom: 1px dashed #999;
+}
+
+.cpt_list ul li:after {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    display: block;
+    width: 3px;
+    height: 3px;
+    content: "";
+    background-color: #333;
+}
+
+.cpt_list ul li:hover a,
+.cpt_list ul li:hover span {
+    color: #009cff;
+}
+
+.cpt_list ul li a {
+    display: inline-block;
+}
+
+.cpt_list ul li span {
+    float: right;
+    color: #999;
+}

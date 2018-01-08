@@ -1,0 +1,34 @@
+/* pur_sup列表 */
+.pur_sup table{
+    width: 100% ;
+}
+.pur_sup table thead{
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #3f8fd8;
+}
+.pur_sup table thead th{
+    text-align: center;
+}
+.pur_sup table tbody{
+    font-size: 12px;
+}
+.pur_sup table tbody tr{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.pur_sup table tbody td{
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pur_sup table tbody td a:hover{
+    color: #3f8fd8;
+}
+.pur_sup .go_detail{
+    color: #888;
+    margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交易所项目约定</title>
+</head>
+<body>
+    <h1>一.CSS说明</h1>
+    <!--
+        1.lty_ =>layout
+        2.g_ => global
+        3.c_ => container
+    -->
+    <ul>
+        <li>1.布局容器: lty_container</li>
+        <li>2.全局容器: g_wrap</li>
+        <li>3.组件容器: c_ 作为前缀(例如：c_home,c_hall,c_uc)</li>
+        <li>4.类名称全部以下划线作为连接(如：home_top, home_nav, hom_sidebar_left),最多不超过三个词</li>
+        <li>5.样式层级不超过三层(如：.lty_container .g_wrap .lty_01{padding:0;} )</li>
+    </ul>
+
+
+    <h1>二.JS说明</h1>
+    <ul>
+        <li>1.vue是以数据作为驱动的,尽可能的不要操作dom</li>
+        <li>2.命名一驼峰的形式(如：function isShowMenu(){} )</li>
+        <li>3.如果多出用到可以封装一下作为一个工具放在utils目录下,使用import引入使用</li>
+    </ul>
+
+
+    <h1>三.模块(组件)划分</h1>
+    <ul>
+        <li>1.pages下面的每一个文件夹是一个大的模块,(如：home=>首页,hall=>交易大厅)这个模块里面所有内容都在里面</li>
+    </ul>
+</body>
+</html>

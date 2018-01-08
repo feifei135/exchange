@@ -1,0 +1,58 @@
+/* 1.带标题有边框的盒子 */
+.cpt_box {
+    border: 1px solid #eeeeee;
+}
+
+.cpt_box .cpt_box_title {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.cpt_box .cpt_box_title i{
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 10px;
+    background: url("../../images/index_icons.png") no-repeat;
+}
+
+.cpt_box .cpt_box_title .text {
+    color: #006c05;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cpt_box .cpt_box_title .more {
+    float: right;
+    margin-right: 10px;
+    color: #999;
+}
+.cpt_box i.icon_xwdt{
+    background-position: -55px -36px;
+}
+.cpt_box i.icon_jygg{
+    background-position: -99px -36px;
+}
+.cpt_box i.icon_hqzs{
+    background-position: -139px -36px;
+}
+.cpt_box i.icon_sczx{
+    background-position: -172px -35px;
+}
+.cpt_box i.icon_jydt{
+    background-position: -206px -36px;
+}
+.cpt_box i.icon_jyfw{
+    background-position: -273px -36px;
+}
+.cpt_box i.icon_yshq{
+    background-position: -236px -36px;
+}
+.cpt_box i.icon_hyfw{
+    background-position: -310px -36px;
+}
+
+

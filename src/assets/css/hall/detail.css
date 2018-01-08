@@ -1,0 +1,269 @@
+/* 详情页 */
+.hall_detail .lty_container {
+    padding-top: 15px;
+    background-color: #ebebeb;
+}
+
+.hall_detail .lty_dtl_lt {
+    width: 920px;
+    float: left;
+}
+
+.hall_detail .lty_dtl_rt {
+    width: 200px;
+    float: right;
+}
+
+/* 布局01 */
+.hall_detail .lty_01 {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+/* 布局02 */
+.hall_detail .lty_02 {
+    padding: 25px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hall_detail .lty_02 .top {
+    height: 360px;
+    margin-bottom: 60px;
+}
+
+.hall_detail .lty_02 .top_lt {
+    width: 390px;
+    height: 100%;
+    float: left;
+    border: 1px solid #eeeeee;
+}
+
+.hall_detail .lty_02 .top_lt img {
+    display: block;
+    height: 100%;
+}
+
+.hall_detail .lty_02 .top_cr {
+    position: relative;
+    width: 450px;
+    height: 360px;
+    float: right;;
+}
+
+.hall_detail .lty_02 .prd_name {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.hall_detail .lty_02 .prd_name h3 {
+    line-height: 20px;
+    font-size: 24px;
+}
+
+.hall_detail .lty_02 .prd_name p {
+    color: #999;
+    font-size: 12px;
+}
+
+.hall_detail .lty_02 .prd_name p span {
+    float: right;
+}
+
+.hall_detail .lty_02 .prd_info {
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.hall_detail .prd_info li {
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    color: #666666;
+    font-size: 12px;
+}
+
+.hall_detail .prd_info li input {
+    width: 90px;
+    height: 20px;
+    border: 1px solid #888;
+    border-radius: 2px;
+}
+
+.hall_detail .prd_info .clr_red{
+    font-size: 20px;
+}
+
+.hall_detail .prd_btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hall_detail .prd_btns a {
+    display: inline-block;
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.hall_detail .prd_btns .btn_01 {
+    background-color: #ff0000;
+}
+.hall_detail .prd_btns .btn_02 {
+    background-color: #629de6;
+}
+
+.hall_detail .prd_btns .btn_03 {
+    color: #629de6;
+    border: 1px solid #629de6;
+}
+
+.hall_detail .lty_02 .tab_bar {
+    font-size: 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f8f8f8;
+}
+
+.hall_detail .lty_02 .tab_bar.fix {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 870px;
+}
+
+.hall_detail .lty_02 .tab_bar span {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hall_detail .tab_bar span.active,
+.hall_detail .lty_02 .tab_bar span:hover {
+    position: relative;
+    color: #fff;
+    background-color: #44a84b;
+}
+
+.hall_detail .tab_bar span.active:after,
+.hall_detail .lty_02 .tab_bar span:hover:after {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    z-index: 10;
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #44a84b transparent transparent transparent;
+}
+
+.hall_detail .lty_02 .tab_item {
+    padding: 30px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.hall_detail .tab_item h3 {
+    color: #44a84b;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hall_detail .tab_item ul li {
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hall_detail .prd_imgs img {
+    display: block;
+    margin: 10px auto;
+}
+
+/* 右侧 */
+.hall_detail .seller_info {
+    font-size: 12px;
+}
+
+.hall_detail .seller_info .cpt_box_main p {
+    margin: 5px 0;
+}
+
+.hall_detail .seller_info .new_line label {
+    display: block;
+    width: 40px;
+    float: left;
+}
+
+.hall_detail .seller_info .new_line span {
+    display: block;
+    width: 125px;
+    float: right;
+}
+
+.hall_detail .lty_dtl_rt .cpt_box {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.hall_detail .lty_dtl_rt .cpt_box_main {
+    padding: 20px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hall_detail .cpt_box_title i {
+    background: url("../../images/hall_icons.png") no-repeat !important;
+}
+
+.hall_detail .cpt_box .icon_sjxx {
+    background-position: -282px -85px !important;
+}
+
+.hall_detail .cpt_box .icon_rxpz {
+    background-position: -334px -85px !important;
+}
+
+.hall_detail .cpt_box .icon_tlxx {
+    background-position: -387px -88px !important;
+}
+
+.hall_detail .cpt_box .icon_llxx {
+    background-position: -506px -88px !important;
+}
+
+/* 商户信息 */
+.c_seller_info {
+    font-size: 12px;
+}
+.c_seller_info p {
+    margin: 5px 0;
+}
+.c_seller_info .new_line label {
+    display: block;
+    width: 40px;
+    float: left;
+}
+
+.c_seller_info .new_line span {
+    display: block;
+    width: 125px;
+    float: right;
+}

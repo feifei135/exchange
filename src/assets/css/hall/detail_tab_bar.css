@@ -1,0 +1,70 @@
+.c_detail_tabs .tab_bar {
+    font-size: 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f8f8f8;
+}
+
+.c_detail_tabs .tab_bar.fix {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 870px;
+}
+
+.c_detail_tabs .tab_bar span {
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.c_detail_tabs .tab_bar span.active,
+.c_detail_tabs .tab_bar span:hover {
+    position: relative;
+    color: #fff;
+    background-color: #44a84b;
+}
+
+.c_detail_tabs .tab_bar span.active:after,
+.c_detail_tabs .tab_bar span:hover:after {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    z-index: 10;
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #44a84b transparent transparent transparent;
+}
+
+.c_detail_tabs .tab_item {
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.c_detail_tabs .tab_item h3 {
+    color: #44a84b;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.c_detail_tabs .tab_item ul li {
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.c_detail_tabs .prd_imgs img {
+    display: block;
+    margin: 10px auto;
+}
+.c_detail_tabs .tab_item_text{
+    text-indent:25px;
+}

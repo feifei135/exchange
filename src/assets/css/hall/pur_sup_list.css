@@ -1,0 +1,18 @@
+.pur_sup_auc .lty_container{
+    background:#e3e8e4 url("../../images/list_bg.jpg") no-repeat;
+    background-size: 100% 650px;
+}
+.pur_sup_auc .position_bar{
+    margin-bottom: 50px;
+    background-color: rgba(255,255,255,0.5);
+}
+.pur_sup_auc .list_main{
+    padding: 20px 25px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.pur_sup_auc .list_title{
+    color: #019b07;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
